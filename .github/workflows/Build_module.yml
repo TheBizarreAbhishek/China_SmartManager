@@ -20,7 +20,7 @@ jobs:
         with:
           fetch-depth: 0  # Ensures the full repository is checked out
 
-      - name: Create Feature Enhancer ZIP
+      - name: Create Module ZIP
         run: |
           zip -r China_SmartManager-${{ github.event.inputs.tag_name }}.zip . \
           -x ".git*" -x ".github*" -x "README.md"
