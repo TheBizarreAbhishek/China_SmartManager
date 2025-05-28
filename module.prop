@@ -1,0 +1,7 @@
+id=samarmanager_cn
+name=China Smart Manager
+version=v1.0.0
+versionCode=1000
+author=Abhishek Babu
+description=Module to replace stock Smart Manager with china smart manager
+updateJson=https://raw.githubusercontent.com/TheBizarreAbhishek/China_SmartManager/main/update.json
